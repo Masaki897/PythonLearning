@@ -2,8 +2,8 @@
 # coding: utf-8
 
 # In[2]:
-
-
+'''
+参考
 import feedparser
 jma_news = feedparser.parse("http://www.jma-net.go.jp/rss/jma.rss")
 
@@ -15,10 +15,13 @@ for article in jma_news['entries']:
   print(f'  日付: {article.get("published")}')
   print(f'  概要: {article.get("summary")}')
   print()
-
+'''
 
 # In[3]:
 
+'''
+RSSを利用してブログから情報を取り出す
+'''
 
 import feedparser
 rss_news = feedparser.parse("https://kakuyasu-sim.jp/feed")
