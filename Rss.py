@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
 '''
 参考
 import feedparser
@@ -16,8 +15,6 @@ for article in jma_news['entries']:
   print(f'  概要: {article.get("summary")}')
   print()
 '''
-
-# In[3]:
 
 '''
 RSSを利用してブログから情報を取り出す
